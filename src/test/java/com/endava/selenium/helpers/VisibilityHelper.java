@@ -1,9 +1,9 @@
-package com.example.selenium.helpers;
+package com.endava.selenium.helpers;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
-import com.example.selenium.runners.Hook;
+import com.endava.selenium.runners.Hook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.springframework.beans.factory.annotation.Autowired;

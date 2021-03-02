@@ -1,9 +1,9 @@
-package com.example.selenium.steps;
+package com.endava.selenium.steps;
 
 import static org.openqa.selenium.support.PageFactory.initElements;
 
-import com.example.selenium.pages.BasePage;
-import com.example.selenium.runners.Hook;
+import com.endava.selenium.pages.BasePage;
+import com.endava.selenium.runners.Hook;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

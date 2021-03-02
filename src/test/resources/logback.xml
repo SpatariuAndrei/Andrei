@@ -13,6 +13,6 @@
         <appender-ref ref="console" />
     </root>
 
-    <logger name="com.example.selenium" level="debug" />
+    <logger name="com.endava.selenium" level="debug" />
     
 </configuration>

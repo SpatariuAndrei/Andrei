@@ -1,4 +1,4 @@
-package com.example.selenium;
+package com.endava.selenium;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

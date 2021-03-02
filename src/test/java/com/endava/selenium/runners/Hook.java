@@ -1,4 +1,4 @@
-package com.example.selenium.runners;
+package com.endava.selenium.runners;
 
 import static java.lang.Boolean.TRUE;
 import static org.springframework.util.ObjectUtils.isEmpty;

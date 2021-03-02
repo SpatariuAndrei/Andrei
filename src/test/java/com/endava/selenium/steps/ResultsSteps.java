@@ -1,6 +1,6 @@
-package com.example.selenium.steps;
+package com.endava.selenium.steps;
 
-import com.example.selenium.pages.ResultsPage;
+import com.endava.selenium.pages.ResultsPage;
 import io.cucumber.java.en.Then;
 import org.springframework.beans.factory.annotation.Autowired;
 

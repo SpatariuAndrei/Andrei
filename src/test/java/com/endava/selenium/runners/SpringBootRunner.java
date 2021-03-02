@@ -1,4 +1,4 @@
-package com.example.selenium.runners;
+package com.endava.selenium.runners;
 
 import io.cucumber.java.Before;
 import io.cucumber.spring.CucumberContextConfiguration;

@@ -1,9 +1,3 @@
-# Cucumber + Selenium + Spring Boot example
-
-This repository contains the base setup of a functional user interface testing project, using Cucumber + Selenium (Page Factory Model) + Spring Boot
-
-A simple test for finding results in DuckDuckGo is used as example
-
 # Requirements
 
 * JDK 8

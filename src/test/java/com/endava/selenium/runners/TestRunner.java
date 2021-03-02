@@ -1,4 +1,4 @@
-package com.example.selenium.runners;
+package com.endava.selenium.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         plugin = {"pretty", "html:results/cucumber-reports.html", "json:results/cucumber.json", "junit:results/cucumber.xml"},
-        glue = "com.example.selenium",
+        glue = "com.endava.selenium",
         tags = "not @wip")
 
 public class TestRunner {

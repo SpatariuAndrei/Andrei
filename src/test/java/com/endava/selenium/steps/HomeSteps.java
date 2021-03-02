@@ -1,6 +1,6 @@
-package com.example.selenium.steps;
+package com.endava.selenium.steps;
 
-import com.example.selenium.pages.HomePage;
+import com.endava.selenium.pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.springframework.beans.factory.annotation.Autowired;

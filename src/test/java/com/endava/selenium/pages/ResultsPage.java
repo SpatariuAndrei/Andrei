@@ -1,6 +1,6 @@
-package com.example.selenium.pages;
+package com.endava.selenium.pages;
 
-import com.example.selenium.helpers.VisibilityHelper;
+import com.endava.selenium.helpers.VisibilityHelper;
 import org.openqa.selenium.By;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
