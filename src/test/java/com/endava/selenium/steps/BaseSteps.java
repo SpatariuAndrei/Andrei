@@ -66,7 +66,6 @@ public class BaseSteps {
 
         featureName = StringUtils.substringBeforeLast(featureName, ".feature");
         featureName = StringUtils.substringAfterLast(featureName, "/");
-
         return featureName;
     }
 }
