@@ -8,18 +8,19 @@ pipeline {
                buildMaven();
             }
         }
-    } post {
-              always {
-                  // publish html
-                  publishHTML target: [
-                          allowMissing         : false,
-                          alwaysLinkToLastBuild: false,
-                          keepAll              : true,
-                          reportDir            : 'results',
-                          reportFiles          : 'cucumber-reports.html',
-                          reportName           : 'Selenium spring boot training Report'
-                  ]
-                  deleteDir();
-              }
-          }
+    }
+    post {
+        always {
+            // publish html
+            publishHTML target: [
+                    allowMissing         : false,
+                    alwaysLinkToLastBuild: false,
+                    keepAll              : true,
+                    reportDir            : 'results',
+                    reportFiles          : 'cucumber-reports.html',
+                    reportName           : 'Selenium spring boot training Report'
+            ]
+            deleteDir();
+        }
+    }
 }
