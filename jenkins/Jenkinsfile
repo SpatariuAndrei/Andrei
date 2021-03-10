@@ -1,5 +1,4 @@
-@Library('mvn-training-library')
-
+@Library("mvn-training-library")
 pipeline {
     agent any
 
