@@ -1,10 +1,12 @@
+@Library('mvn-training-library')
+
 pipeline {
     agent any
 
     stages {
         stage('Run tests') {
             steps {
-               sh "./mvnw clean install"
+               buildMaven();
             }
         }
     }
